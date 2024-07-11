@@ -5,11 +5,11 @@ public class GameServer
     
     public class Player
     {
-        public string name;
+        public string name = "Default";
         public int level;
         public int health;
         public bool isVip;
-        public Clan clan;
+        public Clan? clan;
     }
     
     
@@ -73,7 +73,7 @@ public class GameServer
     public class Clan
     {
         public int id;
-        public string name;
+        public string name = "Default";
     }
 
     public static void SavePlayer()
