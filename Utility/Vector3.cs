@@ -35,8 +35,7 @@ public struct Vector3
     {
         get
         {
-            // TODO: Add down, left, right, forward and backward
-            return new Vector3(0, 0, 1);
+            return new Vector3(0, 1, 0);
         }
     }
 
