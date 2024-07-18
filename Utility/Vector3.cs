@@ -41,7 +41,7 @@ public struct Vector3
 
     public static Vector3 operator +(Vector3 a, Vector3 b)
     {
-        return new Vector3(a.x + b.x, a.y + b.z, a.z + b.y);
+        return new Vector3(a.x + b.x, a.y + b.y, a.z + b.z);
     }
 
     public float Magnitude
