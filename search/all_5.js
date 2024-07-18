@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['utility_0',['Utility',['../namespace_utility.html',1,'']]],
-  ['utility_3a_3atest_1',['Test',['../namespace_utility_1_1_test.html',1,'Utility']]]
+  ['of_20legends_0',['League of Legends',['../index.html',1,'']]],
+  ['overview_1',['Overview',['../index.html#autotoc_md2',1,'']]]
 ];
