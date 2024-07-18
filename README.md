@@ -5,3 +5,29 @@
 ## Overview
 
 [![](https://mermaid.ink/img/pako:eNptkU1PwzAMhv9K5BMT6x-odkGMSRx22g1VQm5iWqv5GPnQBGP_nbSsYWzkkvixX-uNfQTpFEENUmMIa8bOo2msyOfBskEtVl9VJdZJDrd0w6G_pS_UevyDa3HPNgrs6BrvomfbiY6sIn-ZHCVhiyY_7xZXCYORZjjZnuwdf4AoTVvC4dFp50siHNjMwhy-J5TDHJ8u-40fK_2q0XvgT3q2G6JYsET7hPFf_TSCX0Otc1pweD2wVgX6ZIsWlmDIG2SVNzHpGog9GWqgzk-FfmigsWMdpuh2H1ZCHX2iJXiXuh7qN9QhR2mv8nDOa5xLSHF0fnve83idvgEs5ZqA?type=png)](https://mermaid.live/edit#pako:eNptkU1PwzAMhv9K5BMT6x-odkGMSRx22g1VQm5iWqv5GPnQBGP_nbSsYWzkkvixX-uNfQTpFEENUmMIa8bOo2msyOfBskEtVl9VJdZJDrd0w6G_pS_UevyDa3HPNgrs6BrvomfbiY6sIn-ZHCVhiyY_7xZXCYORZjjZnuwdf4AoTVvC4dFp50siHNjMwhy-J5TDHJ8u-40fK_2q0XvgT3q2G6JYsET7hPFf_TSCX0Otc1pweD2wVgX6ZIsWlmDIG2SVNzHpGog9GWqgzk-FfmigsWMdpuh2H1ZCHX2iJXiXuh7qN9QhR2mv8nDOa5xLSHF0fnve83idvgEs5ZqA)
+
+## Overview Inline
+
+```mermaid
+classDiagram
+    Animal <|-- Duck
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+      +String beakColor
+      +swim()
+      +quack()
+    }
+    class Fish{
+      -int sizeInFeet
+      -canEat()
+    }
+    class Zebra{
+      +bool is_wild
+      +run()
+    }
+```
