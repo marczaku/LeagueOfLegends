@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['player_0',['Player',['../class_utility_1_1_game_server_1_1_player.html',1,'Utility::GameServer']]],
-  ['purpose_1',['Purpose',['../index.html#autotoc_md1',1,'']]]
+  ['of_20legends_0',['League of Legends',['../index.html',1,'']]],
+  ['overview_1',['Overview',['../index.html#autotoc_md2',1,'']]],
+  ['overview_20inline_2',['Overview Inline',['../index.html#autotoc_md3',1,'']]]
 ];
