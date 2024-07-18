@@ -2,7 +2,7 @@ using NUnit.Framework;
 namespace Utility.Test;
 public class FibonacciTests
 {
-
+    
     [Test]
     public void WorksForAnArbitraryValue()
     {
